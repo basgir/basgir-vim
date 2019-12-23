@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/bgir/projects/7-fitally/fitters'
+let g:netrw_dirhist_2='/Users/bgirardet/tmp/out/blog.objectif-libre-et-independant.fr'
+let g:netrw_dirhist_3='/Users/bgirardet/tmp/player.html'
+let g:netrw_dirhist_4='/Users/bgirardet/Documents/4-marketing/3-landing-pages'
