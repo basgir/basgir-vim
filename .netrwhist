@@ -1,6 +1,16 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
 let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/bgir/projects/7-fitally/fitters'
 let g:netrw_dirhist_2='/Users/bgirardet/tmp/out/blog.objectif-libre-et-independant.fr'
 let g:netrw_dirhist_3='/Users/bgirardet/tmp/player.html'
 let g:netrw_dirhist_4='/Users/bgirardet/Documents/4-marketing/3-landing-pages'
+=======
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/bgir/projects/7-fitally/fitters'
+let g:netrw_dirhist_2='/home/bgir/projects/4-prog-for-econ/website/courses/templates'
+let g:netrw_dirhist_3='/home/bgir/projects/4-prog-for-econ/website/courses'
+let g:netrw_dirhist_4='/home/bgir/projects/7-fitally/fitters'
+let g:netrw_dirhist_5='/home/bgir/projects/20-invoice-generator/api'
+let g:netrw_dirhist_6='/home/bgir/.vim/colors'
+>>>>>>> 44a38f4e2927f2e54fd16dd8d9b6b07d6e19c533
