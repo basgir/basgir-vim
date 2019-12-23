@@ -1,11 +1,8 @@
-
-" Don't try to be vi compatible
+ "Don't try to be vi compatible
 set nocompatible
 
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
-
-" TODO: Load plugins here (pathogen or vundle)
 
 " Turn on syntax highlighting
 syntax on
@@ -35,7 +32,7 @@ set encoding=utf-8
 
 " Whitespace
 set wrap
-set textwidth=79
+set textwidth=180
 set formatoptions=tcqrn1
 set tabstop=2
 set shiftwidth=2
@@ -81,8 +78,6 @@ inoremap <F1> <ESC>:set invfullscreen<CR>a
 nnoremap <F1> :set invfullscreen<CR>
 vnoremap <F1> :set invfullscreen<CR>
 
-" Textmate holdouts
-
 " Formatting
 map <leader>q gqip
 
@@ -94,13 +89,29 @@ set listchars=tab:▸\ ,eol:¬
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Color scheme (terminal)
-set t_Co=256
-set background=dark
-let g:hybrid_termcolors=256
-let g:hybrid_termtrans=1
+"set t_Co=256
+"set background=dark
+"let g:hybrid_termcolors=256
+"let g:hybrid_termtrans=1
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
-"colorscheme Tomorrow-Night
-colorscheme Tomorrow-Night-Eighties
+colorscheme gruvbox
+set bg=dark
 hi Normal ctermbg=none
 
+" Remap Nerdtree
+
+nmap <C-n> :NERDTreeToggle<CR>
+vmap ++ <plug>NERDCommenterToggle
+nmap ++ <plug>NERDCommenterToggle
+
+" Pathogen
+execute pathogen#infect()
+call pathogen#helptags() " generate helptags for everything in ‘runtimepath’
+syntax on
+filetype plugin indent on
+
+
+" Additional plugins
+
+" Best font : Fira Code Nerd font :
